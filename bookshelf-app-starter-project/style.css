@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  color: #333;
+}
+
+.container {
+  width: 50%;
+  max-width: 780px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+}
+
+header {
+  background-color: #6a0dad;
+  color: #fff;
+  text-align: center;
+  padding: 16px;
+  border-radius: 8px;
+}
+
+header h1 {
+  font-size: 1.8em;
+}
+
+main {
+  margin-top: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #555;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  font-size: 1em;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+}
+
+button {
+  background-color: #6a0dad;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #5a0b9a;
+}
+
+button:focus {
+  outline: none;
+}
+
+#incompleteBookList,
+#completeBookList {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#incompleteBookList div,
+#completeBookList div {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#incompleteBookList h3,
+#completeBookList h3 {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+#incompleteBookList p,
+#completeBookList p {
+  margin-bottom: 5px;
+  color: #666;
+}
+
+#incompleteBookList div div,
+#completeBookList div div {
+  display: flex;
+  gap: 10px;
+}
+
+#incompleteBookList button,
+#completeBookList button {
+  padding: 8px 12px;
+  font-size: 0.9em;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+#incompleteBookList button:hover,
+#completeBookList button:hover {
+  background-color: #222;
+}
