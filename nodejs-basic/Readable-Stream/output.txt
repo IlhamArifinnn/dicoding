@@ -1,0 +1,20 @@
+Stream di Node.
+js
+ 
+Teknik s
+tream merupakan
+ salah satu kon
+sep fundamental
+ yang mendukung
+ aplikasi Node.
+js bekerja. Tek
+nik ini dapat m
+enangani kasus 
+baca tulis berk
+as, komunikasi 
+jaringan, atau 
+beban kerja apa
+pun agar dapat 
+berjalan dengan
+ lebih efisien.
+null

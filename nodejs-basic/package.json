@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-basic",
+  "version": "1.0.0",
+  "description": "belajar node js dicoding",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-dev": "NODE_ENV=development node app.js",
+    "start": "NODE_ENV=production node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1"
+  }
+}
