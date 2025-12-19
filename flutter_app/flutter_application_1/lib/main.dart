@@ -7,7 +7,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(primarySwatch: Colors.blue),
+      theme: ThemeData(primarySwatch: Colors.blue, fontFamily: 'Oswald'),
       home: const Scaffold(
         body: Center(
           child: BiggerText(
@@ -48,6 +48,11 @@ class _BiggerTextState extends State<BiggerText> {
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         Text(widget.text, style: TextStyle(fontSize: _textSize)),
+        Text(
+          'Custom Font',
+          style: TextStyle(fontFamily: 'Oswald', fontSize: 30),
+        ),
+
         ElevatedButton(
           child: const Text("Perbesar"),
           onPressed: () {
