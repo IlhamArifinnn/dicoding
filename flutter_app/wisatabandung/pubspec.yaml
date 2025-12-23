@@ -76,7 +76,7 @@ flutter:
   fonts:
     - family: Oxygen
       fonts:
-        - asset: fonts/Oxygen-Regular.ttf
+        - asset: fonts/Oxygen/Oxygen-Regular.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
